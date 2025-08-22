@@ -5,7 +5,7 @@ import React, { version } from 'react'
 
  function Button({children, version, type, isDisabled}) {
   return (
-    <button type={type} disabled= {isDisabled} className={`btn btn-${version}`} >
+    <button type={type} disabled= {isDisabled} className={`btn btn-${version}`}>
         {children}
     </button>
   )
