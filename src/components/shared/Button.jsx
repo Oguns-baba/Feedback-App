@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import React, { version } from 'react'
 
- function Button({children, version= primary, type='button', isDisabled = 'false'}) {
+ function Button({children, version= 'primary', type='button', isDisabled = 'false'}) {
   return (
     <button type={type} disabled= {isDisabled} className={`btn btn-${version}`}>
         {children}
